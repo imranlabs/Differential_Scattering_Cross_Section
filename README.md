@@ -15,11 +15,7 @@
 
 # Scattering by nanoplasmonic mesoscale assemblies: [Tuining Diffraction](https://doi.org/10.1364/JOSAA.560629)
 Reproducible notebook for computing and visualizing the **differential scattering cross section(diffraction)** of a dielectric core coated with a disordered shell of gold nanoparticles (AuNPs).
-
-> Paper: https://doi.org/10.1364/JOSAA.560629
-
-This repository contains the code(`Differential_Scattering_Cross_Section.ipynb`) and data for the study "Scattering by nanoplasmonic mesoscale assemblies" published in JOSA A (2025).
-DOI: https://doi.org/10.1364/JOSAA.560629
+This repository contains the code(`Differential_Scattering_Cross_Section.ipynb`) and data for the study "Scattering by nanoplasmonic mesoscale assemblies" [published in JOSA A (2025).](https://doi.org/10.1364/JOSAA.560629)
 
 ## Overview
 We investigate the scattering behavior of nanoplasmonic mesoscale structures composed of a dielectric spherical core coated with a concentric shell containing randomly distributed gold nanoparticles (AuNPs). Using a multiscale computational framework, we quantify how controlled disorder in the AuNP shell redistributes scattered power, suppresses side lobes, and biases scattering forward. This tunability suggests potential applications in passive cloaking and high-resolution imaging.
