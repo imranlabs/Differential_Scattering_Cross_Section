@@ -13,7 +13,7 @@
   </a>
 </p>
 
-# Scattering by nanoplasmonic mesoscale assemblies: [Tuining Diffraction](https://doi.org/10.1364/JOSAA.560629)
+# Scattering by nanoplasmonic mesoscale assemblies: [Tuning Diffraction](https://doi.org/10.1364/JOSAA.560629)
 Reproducible notebook for computing and visualizing the **differential scattering cross section(diffraction)** of a plasmonic meta-structure consisting of a dielectric core coated with a co-centric disordered shell of gold nanoparticles (AuNPs).
 This repository contains the code(`Differential_Scattering_Cross_Section.ipynb`) and data for the study "Scattering by nanoplasmonic mesoscale assemblies" [published in JOSA A (2025).](https://doi.org/10.1364/JOSAA.560629)
 
