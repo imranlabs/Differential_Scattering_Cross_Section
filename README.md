@@ -14,7 +14,7 @@
 </p>
 
 # Scattering by nanoplasmonic mesoscale assemblies: [Tuining Diffraction](https://doi.org/10.1364/JOSAA.560629)
-Reproducible notebook for computing and visualizing the **differential scattering cross section(diffractio)** of a dielectric core coated with a disordered shell of gold nanoparticles (AuNPs).
+Reproducible notebook for computing and visualizing the **differential scattering cross section(diffraction)** of a dielectric core coated with a disordered shell of gold nanoparticles (AuNPs).
 
 > Paper: https://doi.org/10.1364/JOSAA.560629
 
