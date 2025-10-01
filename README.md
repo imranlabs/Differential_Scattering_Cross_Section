@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/github/license/imranlabs/Broadband_Plasmonic_cloaking" alt="License">
   </a>
 
-This repository provides a **fully reproducible** Jupyter notebook and minimal helper assets to compute and visualize the **differential scattering cross section** (far‑field angular distribution) for a dielectric core surrounded by a **concentric, disordered shell** of gold nanoparticles (AuNPs). Using a multiscale computational framework, we quantify how controlled disorder in the AuNP shell redistributes scattered power, suppresses side lobes, and biases scattering forward. This tunability suggests potential applications in passive cloaking and high-resolution imaging. The workflow is geared toward quick parameter sweeps, clean plots, and exportable data for downstream analysis.
+This repository provides a **fully reproducible** Jupyter notebook and minimal helper functions to compute and visualize the **differential scattering cross section** (far‑field angular distribution) for a dielectric core surrounded by a **concentric, disordered shell** of gold nanoparticles (AuNPs). Using a multiscale computational framework, we quantify how controlled disorder in the AuNP shell redistributes scattered power, suppresses side lobes, and biases scattering forward. This tunability suggests potential applications in passive cloaking and high-resolution imaging. The workflow is geared toward quick parameter sweeps, clean plots, and exportable data for downstream analysis.
 
 > **Paper**: Md. Imran Khan, Sayantani Ghosh, and Arnold D. Kim, *“Scattering by nanoplasmonic mesoscale assemblies,”* **JOSA A** 42, 1244–1253 (2025). DOI: https://doi.org/10.1364/JOSAA.560629
 
