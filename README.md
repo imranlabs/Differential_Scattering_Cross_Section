@@ -92,7 +92,8 @@ if you use this code or data, please cite:
 ## Acknowledgments
 
 This work builds on earlier research:
-[Modeling broadband cloaking using 3D nano-assembled plasmonic meta-structures](https://doi.org/10.1364/OE.395840)
+- [Modeling broadband cloaking using 3D nano-assembled plasmonic meta-structures](https://doi.org/10.1364/OE.395840)
+- [Simulation](https://github.com/imranlabs/Broadband_Plasmonic_cloaking)
 
 ## License
 This project is licensed under the MIT License. See LICENSE file for details.
