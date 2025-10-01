@@ -37,21 +37,21 @@ Parameter Studies: Sweeps AuNP diameters (5–20 nm) and filling fractions (0.1�
 - **Henyey-Greenstein Fitting:** Used to extract anisotropy from scattering profiles.
 
 ## Repository Structure
-```none
+```
 ├── Differential_scattering_cross_section.ipynb  # Main Jupyter notebook
 ├── src/
-│   ├── Geometry.py                              # Geometry-related functions
-│   └── Mfs.py                                  # Method of Fundamental Solutions
+│   ├── Geometry.py                          # Geometry-related functions
+│   └── Mfs.py                               # Method of Fundamental Solutions
 ├── data/
 │   └── optical_constants/
-│   |    └── 20nm_gold_film_silica.csv          # Refractive index data
+│   |    └── 20nm_gold_film_silica.csv       # Refractive index data
 |   └-- plot_data/
-│       └── Core_750_5nm_20nm_in_670nm.csv      # Pre-computed far-field scattering data
-|       └── Core_750_5nm_20nm_in_450nm.csv      # Pre-computed far-field scattering data            
+│       └── Core_750_5nm_20nm_in_670nm.csv   # far-field scattering data
+|       └── Core_750_5nm_20nm_in_450nm.csv                 
 |                    
 ├── results/
-│   ├── data/                                   # Output CSV files
-│   └── figures/                                # Generated plots
+│   ├── data/                                # Output CSV files
+│   └── figures/                             # output plots
 └── README.md
 ```
 ## Dependencies
