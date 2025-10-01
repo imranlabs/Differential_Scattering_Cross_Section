@@ -32,11 +32,11 @@ Parameter Studies: Sweeps AuNP diameters (5â€“20 nm) and filling fractions (0.1â
 
 - ### Physical Quantities Computed:
 
-    - Differential scattering cross-section
+    - Differential scattering cross-section($\sigma{d}$)
 
-    - Total scattering cross-section
+    - Total scattering cross-section($\sigma_{t}$)
 
-    - Scattering albedo
+    - Scattering albedo($\bar{\omega_{0}}$)
 
     - Anisotropy factor (g)
 
