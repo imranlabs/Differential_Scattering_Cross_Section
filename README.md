@@ -74,7 +74,7 @@ Parameter Studies: Sweeps AuNP diameters (5â€“20 nm) and filling fractions (0.1â
 ## Usage
 
 1. Open the Jupyter notebook:
-    jupyter notebook Differential_scattering_cross_section.ipynb
+    `Differential_scattering_cross_section.ipynb`
    
 
 3. Run the cells sequentially:
@@ -88,7 +88,7 @@ Parameter Studies: Sweeps AuNP diameters (5â€“20 nm) and filling fractions (0.1â
 - Plotting: Generates wavelength-dependent anisotropy plots, superimposed polar plots, and on-demand polar plots.
 
 
-3. **Outputs**:
+3. Outputs:
    
 The notebook highlights how **particle size**, **filling fraction/number density**, and **shell thickness** affect the **angular distribution** of scattered light. Typical outputs include:
 
