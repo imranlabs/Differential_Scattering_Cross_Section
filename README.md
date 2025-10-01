@@ -4,7 +4,7 @@
     <img src="https://img.shields.io/badge/Python-3.8%2B-blue" alt="Python 3.8+">
   </a>
   <!-- License (auto-reads your repo’s license) -->
-  <a href="https://github.com/imranlabs/Differential_Scattering_Cross_Section/tree/main/blob/main/LICENSE">
+  <a href="https://github.com/imranlabs/Differential_Scattering_Cross_Section/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/imranlabs/Broadband_Plasmonic_cloaking" alt="License">
   </a>
   <!-- Open in Colab for your main notebook -->
