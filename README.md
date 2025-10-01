@@ -1,3 +1,9 @@
+<!-- Open in Colab for your main notebook -->
+  <a href="https://colab.research.google.com/github/imranlabs/Differential_Scattering_Cross_Section/blob/main/Differential_Scattering_Cross_Section.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">
+  </a>
+</p>
+
 <p align="left">
   <!-- Python version -->
   <a href="https://www.python.org/">
@@ -7,18 +13,10 @@
   <a href="https://github.com/imranlabs/Differential_Scattering_Cross_Section/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/imranlabs/Broadband_Plasmonic_cloaking" alt="License">
   </a>
-  <!-- Open in Colab for your main notebook -->
-  <a href="https://colab.research.google.com/github/imranlabs/Differential_Scattering_Cross_Section/blob/main/Differential_Scattering_Cross_Section.ipynb">
-    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">
-  </a>
-</p>
 
-# Scattering by nanoplasmonic mesoscale assemblies: [Tuning Diffraction](https://doi.org/10.1364/JOSAA.560629)
-Reproducible notebook for computing and visualizing the **differential scattering cross section(diffraction)** of a plasmonic meta-structure consisting of a dielectric core coated with a co-centric disordered shell of gold nanoparticles (AuNPs).
-This repository contains the code(`Differential_Scattering_Cross_Section.ipynb`) and data for the study "Scattering by nanoplasmonic mesoscale assemblies" [published in JOSA A (2025).](https://doi.org/10.1364/JOSAA.560629)
+This repository provides a **fully reproducible** Jupyter notebook and minimal helper assets to compute and visualize the **differential scattering cross section** (far‑field angular distribution) for a dielectric core surrounded by a **concentric, disordered shell** of gold nanoparticles (AuNPs). Using a multiscale computational framework, we quantify how controlled disorder in the AuNP shell redistributes scattered power, suppresses side lobes, and biases scattering forward. This tunability suggests potential applications in passive cloaking and high-resolution imaging. The workflow is geared toward quick parameter sweeps, clean plots, and exportable data for downstream analysis.
 
-## Overview
-We investigate the scattering behavior of nanoplasmonic mesoscale structures composed of a dielectric spherical core coated with a concentric shell containing randomly distributed gold nanoparticles (AuNPs). Using a multiscale computational framework, we quantify how controlled disorder in the AuNP shell redistributes scattered power, suppresses side lobes, and biases scattering forward. This tunability suggests potential applications in passive cloaking and high-resolution imaging.
+> **Paper**: Md. Imran Khan, Sayantani Ghosh, and Arnold D. Kim, *“Scattering by nanoplasmonic mesoscale assemblies,”* **JOSA A** 42, 1244–1253 (2025). DOI: https://doi.org/10.1364/JOSAA.560629
 
 ## Key Features
 
@@ -34,7 +32,7 @@ Parameter Studies: Sweeps AuNP diameters (5–20 nm) and filling fractions (0.1�
 
     - Scattering albedo($\bar{\omega_{0}}$)
 
-    - Anisotropy factor (g)
+    - Anisotropy factor ($g$)
 
 - **Henyey-Greenstein Fitting:** Used to extract anisotropy from scattering profiles.
 
@@ -48,8 +46,8 @@ Parameter Studies: Sweeps AuNP diameters (5–20 nm) and filling fractions (0.1�
 │   └── optical_constants/
 │   |    └── 20nm_gold_film_silica.csv          # Refractive index data
 |   └-- plot_data/
-│       └── Core_750_5nm_20nm_in_670nm.csv      # Pre-computed far-filed scattering data
-|       └── Core_750_5nm_20nm_in_450nm.csv      # Pre-computed far-filed scattering data            
+│       └── Core_750_5nm_20nm_in_670nm.csv      # Pre-computed far-field scattering data
+|       └── Core_750_5nm_20nm_in_450nm.csv      # Pre-computed far-field scattering data            
 |                    
 ├── results/
 │   ├── data/                                   # Output CSV files
@@ -77,8 +75,9 @@ Parameter Studies: Sweeps AuNP diameters (5–20 nm) and filling fractions (0.1�
 
 1. Open the Jupyter notebook:
     jupyter notebook Differential_scattering_cross_section.ipynb
+   
 
-2. Run the cells sequentially:
+3. Run the cells sequentially:
 
  - Environment Setup: Imports necessary libraries.
 
@@ -86,25 +85,32 @@ Parameter Studies: Sweeps AuNP diameters (5–20 nm) and filling fractions (0.1�
 
  - Main Execution Loop: Computes core-only and core-shell scattering properties.
 
-- Plotting: Generates wavelength-dependent anisotropy plots, superimposed polar plots, on-demand polar plot.
+- Plotting: Generates wavelength-dependent anisotropy plots, superimposed polar plots, and on-demand polar plots.
 
-3. Outputs:
+
+3. **Outputs**:
+   
+The notebook highlights how **particle size**, **filling fraction/number density**, and **shell thickness** affect the **angular distribution** of scattered light. Typical outputs include:
+
  - CSV files with computed scattering properties (in results/data/)
 
  - Figures comparing anisotropy factors (in results/figures/)
 
 ## Citation
+If you use this notebook or derived data/figures, please cite the article:
 
-if you use this code or data, please cite:
-
- Imran Khan et al., “Mesoscale optical scattering control using nano-assembled plasmonic shells,” JOSA A (2025).
- DOI: https://doi.org/10.1364/JOSAA.560629
+```
+Md. Imran Khan, Sayantani Ghosh, and Arnold D. Kim,
+"Scattering by nanoplasmonic mesoscale assemblies,"
+J. Opt. Soc. Am. A 42, 1244–1253 (2025).
+https://doi.org/10.1364/JOSAA.560629
+```
 
 ## Acknowledgments
 
 This work builds on earlier research:
-- [Modeling broadband cloaking using 3D nano-assembled plasmonic meta-structures](https://doi.org/10.1364/OE.395840)
-- [Simulation](https://github.com/imranlabs/Broadband_Plasmonic_cloaking)
+- [Modeling broadband cloaking using 3D nano-assembled plasmonic meta-structures](https://github.com/imranlabs/Broadband_Plasmonic_cloaking)
+- Many thanks to collaborators and the broader plasmonics community.
 
 ## License
 This project is licensed under the MIT License. See LICENSE file for details.
