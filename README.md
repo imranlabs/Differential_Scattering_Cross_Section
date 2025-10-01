@@ -18,7 +18,7 @@ Reproducible notebook for computing and visualizing the **differential scatterin
 
 > Paper: https://doi.org/10.1364/JOSAA.560629
 
-This repository contains the code(`Differential_Scattering_Cross_Section.ipynb`) and data for the study "Mesoscale optical scattering control using nano-assembled plasmonic shells" published in JOSA A (2025).
+This repository contains the code(`Differential_Scattering_Cross_Section.ipynb`) and data for the study "Scattering by nanoplasmonic mesoscale assemblies" published in JOSA A (2025).
 DOI: https://doi.org/10.1364/JOSAA.560629
 
 ## Overview
